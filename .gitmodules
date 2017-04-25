@@ -22,3 +22,9 @@
 [submodule "simter-security"]
 	path = simter-security
 	url = git@github.com:simter/simter-security.git
+[submodule "simter-meta"]
+	path = simter-meta
+	url = git@github.com:simter/simter-meta.git
+[submodule "simter-meta-jpa"]
+	path = simter-meta-jpa
+	url = git@github.com:simter/simter-meta-jpa.git

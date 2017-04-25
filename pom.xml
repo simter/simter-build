@@ -40,5 +40,7 @@
     <module>simter-genson-ext</module>
     <module>simter-http</module>
     <module>simter-security</module>
+    <module>simter-meta</module>
+    <module>simter-meta-jpa</module>
   </modules>
 </project>

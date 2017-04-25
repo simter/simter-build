@@ -1,0 +1,24 @@
+[submodule "simter-parent"]
+	path = simter-parent
+	url = git@github.com:simter/simter-parent.git
+[submodule "simter-context"]
+	path = simter-context
+	url = git@github.com:simter/simter-context.git
+[submodule "simter-jwt"]
+	path = simter-jwt
+	url = git@github.com:simter/simter-jwt.git
+[submodule "simter-json"]
+	path = simter-json
+	url = git@github.com:simter/simter-json.git
+[submodule "simter-genson-ext"]
+	path = simter-genson-ext
+	url = git@github.com:simter/simter-genson-ext.git
+[submodule "simter-http"]
+	path = simter-http
+	url = git@github.com:simter/simter-http.git
+[submodule "simter-util"]
+	path = simter-util
+	url = git@github.com:simter/simter-util.git
+[submodule "simter-security"]
+	path = simter-security
+	url = git@github.com:simter/simter-security.git

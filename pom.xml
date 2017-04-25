@@ -4,7 +4,7 @@
   <groupId>tech.simter</groupId>
   <artifactId>simter-build</artifactId>
   <version>0.3-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
   <name>simter-build</name>
   <description>Build all Simter projects</description>
   <url>https://github.com/simter/simter-build</url>
@@ -39,5 +39,6 @@
     <module>simter-json</module>
     <module>simter-genson-ext</module>
     <module>simter-http</module>
+    <module>simter-security</module>
   </modules>
 </project>

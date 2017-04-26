@@ -34,6 +34,7 @@
   </issueManagement>
   <modules>
     <module>simter-parent</module>
+    <module>simter-core</module>
     <module>simter-context</module>
     <module>simter-jwt</module>
     <module>simter-json</module>

@@ -44,5 +44,6 @@
     <module>simter-security</module>
     <module>simter-meta</module>
     <module>simter-meta-jpa</module>
+    <module>simter-rest-jaxrs</module>
   </modules>
 </project>

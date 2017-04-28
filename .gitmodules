@@ -34,3 +34,6 @@
 [submodule "simter-jpa-ext"]
 	path = simter-jpa-ext
 	url = git@github.com:simter/simter-jpa-ext.git
+[submodule "simter-rest-jaxrs"]
+	path = simter-rest-jaxrs
+	url = git@github.com:simter/simter-rest-jaxrs.git

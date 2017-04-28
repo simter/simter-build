@@ -31,3 +31,6 @@
 [submodule "simter-core"]
 	path = simter-core
 	url = git@github.com:simter/simter-core.git
+[submodule "simter-jpa-ext"]
+	path = simter-jpa-ext
+	url = git@github.com:simter/simter-jpa-ext.git

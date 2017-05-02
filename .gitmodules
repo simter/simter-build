@@ -37,6 +37,9 @@
 [submodule "simter-rest-jaxrs"]
 	path = simter-rest-jaxrs
 	url = git@github.com:simter/simter-rest-jaxrs.git
+[submodule "simter-rest-jaxrs-jersey"]
+	path = simter-rest-jaxrs-jersey
+	url = git@github.com:simter/simter-rest-jaxrs-jersey.git
 [submodule "simter-demo"]
 	path = simter-demo
 	url = git@github.com:simter/simter-demo.git

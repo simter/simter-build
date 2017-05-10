@@ -38,6 +38,7 @@
   </issueManagement>
   <modules>
     <module>simter-parent</module>
+    <module>simter-test</module>
     <module>simter-core</module>
     <module>simter-context</module>
     <module>simter-jwt</module>

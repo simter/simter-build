@@ -5,9 +5,10 @@
     <groupId>tech.simter</groupId>
     <artifactId>simter-parent</artifactId>
     <version>0.3-SNAPSHOT</version>
-    <relativePath/>
+    <relativePath>simter-parent/pom.xml</relativePath>
   </parent>
   <artifactId>simter-build</artifactId>
+  <version>0.3-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>simter-build</name>
   <description>Build all Simter projects</description>

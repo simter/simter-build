@@ -52,6 +52,7 @@
     <module>simter-meta-jpa</module>
     <module>simter-rest-jaxrs</module>
     <module>simter-rest-jaxrs-jersey</module>
+    <module>simter-file</module>
     <module>simter-demo</module>
   </modules>
 </project>

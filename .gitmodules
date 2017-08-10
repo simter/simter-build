@@ -49,3 +49,6 @@
 [submodule "simter-file"]
 	path = simter-file
 	url = git@github.com:simter/simter-file.git
+[submodule "simter-id"]
+	path = simter-id
+	url = git@github.com:simter/simter-id.git

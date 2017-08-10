@@ -53,6 +53,7 @@
     <module>simter-rest-jaxrs</module>
     <module>simter-rest-jaxrs-jersey</module>
     <module>simter-file</module>
+    <module>simter-id</module>
     <module>simter-demo</module>
   </modules>
 </project>

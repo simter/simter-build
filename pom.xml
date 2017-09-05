@@ -55,6 +55,7 @@
     <module>simter-file</module>
     <module>simter-id</module>
     <module>simter-util</module>
+    <module>simter-template</module>
     <module>simter-demo</module>
   </modules>
 </project>

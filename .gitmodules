@@ -55,3 +55,6 @@
 [submodule "simter-template"]
 	path = simter-template
 	url = git@github.com:simter/simter-template.git
+[submodule "simter-scheduling"]
+	path = simter-scheduling
+	url = git@github.com:simter/simter-scheduling.git

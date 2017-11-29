@@ -46,6 +46,7 @@
     <module>simter-json</module>
     <module>simter-genson-ext</module>
     <module>simter-jpa-ext</module>
+    <module>simter-jxls-ext</module>
     <module>simter-http</module>
     <module>simter-security</module>
     <module>simter-meta</module>

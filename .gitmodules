@@ -58,3 +58,6 @@
 [submodule "simter-scheduling"]
 	path = simter-scheduling
 	url = git@github.com:simter/simter-scheduling.git
+[submodule "simter-jxls-ext"]
+	path = simter-jxls-ext
+	url = git@github.com:simter/simter-jxls-ext.git

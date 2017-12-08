@@ -58,6 +58,6 @@
     <module>simter-util</module>
     <module>simter-template</module>
     <module>simter-scheduling</module>
-    <module>simter-demo</module>
+    <!-- <module>simter-demo</module> -->
   </modules>
 </project>

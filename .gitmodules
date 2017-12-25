@@ -55,3 +55,6 @@
 [submodule "simter-jxls-ext"]
 	path = simter-jxls-ext
 	url = git@github.com:simter/simter-jxls-ext.git
+[submodule "simter-dependencies"]
+	path = simter-dependencies
+	url = git@github.com:simter/simter-dependencies.git

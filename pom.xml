@@ -5,7 +5,7 @@
   <artifactId>simter-build</artifactId>
   <version>${revision}</version>
   <packaging>pom</packaging>
-  <name>Simter Build</name>
+  <name>simter-build</name>
   <description>Simter Build</description>
   <properties>
     <revision>0.4.0-SNAPSHOT</revision>
@@ -235,6 +235,12 @@
           <artifactId>exec-maven-plugin</artifactId>
           <version>1.6.0</version>
         </plugin>
+        <!-- spring-boot-maven-plugin -->
+        <plugin>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-maven-plugin</artifactId>
+          <version>1.5.9.RELEASE</version>
+        </plugin>
       </plugins>
     </pluginManagement>
     <plugins>
@@ -258,9 +264,9 @@
               <updatePomFile>true</updatePomFile>
               <flattenMode>oss</flattenMode>
               <pomElements>
-                <properties>keep</properties>
-                <profiles>keep</profiles>
-                <pluginManagement>keep</pluginManagement>
+                <properties>interpolate</properties>
+                <profiles>interpolate</profiles>
+                <pluginManagement>interpolate</pluginManagement>
               </pomElements>
             </configuration>
           </execution>

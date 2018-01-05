@@ -1,3 +1,63 @@
-# [simter-build](https://github.com/simter/simter-build)
+# 1. Overview
 
-Build all Simter projects.
+The Simter Project Builder to build all simter projects.
+
+Modules :
+
+Sn | Name | Remark
+:---:|---|---
+ 1 | simter-build          | Module Builder
+ 2 | simter-dependencies   | Modules dependencies management
+ 3 | simter-parent         | All sub modules parent module
+ 4 | simter-\[sub-module\] |
+
+Remark : \[sub-module\] means simter-core and all other sub modules.
+
+Pom Inherited Structure : (A : B means B is the parent of A)
+
+```
+simter-parent : simter-dependencies : simter-build
+gftaxi-\[sub-module\] : simter-parent
+```
+
+## 2. Requirement
+
+Maven3.5+, Java8+.
+
+## 3. Development build
+
+```shell
+$ mvn clean install
+```
+
+The default version is `pom.xml/properties/revision` value, can be change through command argument temporary. Below change to version `x.y.z-SHAPSHOT`.
+
+```shell
+$ mvn clean install -D revision=x.y.z-SHAPSHOT
+```
+
+## 4. Release build
+
+1. Change `pom.xml/properties/revision` value to the release version number.
+    ```
+    <properties>
+      <revision>x.y.z</revision>
+    </properties>
+    ```
+2. Commit a log with format `'Release version x.y.z`.
+    ```shell
+    $ git add pom.xml
+    $ git commit -m "Release version x.y.z"
+    ```
+3. Release to intranet nexus server.
+    ```shell
+    $ mvn clean deploy -P lan
+    ```
+4. Release to bintray.
+    ```shell
+    $ mvn clean deploy -P bintray
+    ```
+5. Release to sonatype.
+    ```shell
+    $ mvn clean deploy -P sonatype
+    ```

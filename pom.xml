@@ -9,6 +9,7 @@
   <description>Simter Build</description>
   <properties>
     <revision>0.5.0-SNAPSHOT</revision>
+    <simter.version>0.5.0-SNAPSHOT</simter.version>
 
     <!-- maven global setting-->
     <java.version>1.8</java.version>
@@ -21,6 +22,21 @@
     <!--<source.skip>false</source.skip>-->
 
     <gpg.executable>gpg</gpg.executable>
+    <!-- kotlin -->
+    <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
+    <kotlin.version>1.2.31</kotlin.version>
+    <!-- spring -->
+    <spring.version>5.0.5.RELEASE</spring.version>
+    <!-- spring-boot -->
+    <spring-boot.version>2.0.1.RELEASE</spring-boot.version>
+    <!-- mongo -->
+    <flapdoodle-embed-mongo.version>2.0.1</flapdoodle-embed-mongo.version>
+    <mongo-embedded.version>3.5.5</mongo-embedded.version>
+    <!-- junit -->
+    <junit.platform.version>1.1.1</junit.platform.version>
+    <junit.jupiter.version>5.1.1</junit.jupiter.version>
+    <junit.vintage.version>5.1.1</junit.vintage.version>
+    <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
   </properties>
   <modules>
     <module>simter-dependencies</module>
@@ -239,7 +255,7 @@
         <plugin>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-maven-plugin</artifactId>
-          <version>2.0.0.RELEASE</version>
+          <version>${spring-boot.version}</version>
         </plugin>
       </plugins>
     </pluginManagement>

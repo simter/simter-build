@@ -277,12 +277,13 @@
             </goals>
             <configuration>
               <outputDirectory>${project.build.directory}</outputDirectory>
+              <flattenedPomFilename>flattened-pom.xml</flattenedPomFilename>
               <updatePomFile>true</updatePomFile>
               <flattenMode>oss</flattenMode>
               <pomElements>
                 <properties>interpolate</properties>
-                <profiles>interpolate</profiles>
-                <pluginManagement>interpolate</pluginManagement>
+                <profiles>keep</profiles>
+                <pluginManagement>keep</pluginManagement>
               </pomElements>
             </configuration>
           </execution>

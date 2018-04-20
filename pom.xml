@@ -33,6 +33,7 @@
     <flapdoodle-embed-mongo.version>2.0.1</flapdoodle-embed-mongo.version>
     <mongo-embedded.version>3.5.5</mongo-embedded.version>
     <!-- junit -->
+    <junit4.version>4.12</junit4.version>
     <junit5.platform.version>1.1.1</junit5.platform.version>
     <junit5.jupiter.version>5.1.1</junit5.jupiter.version>
     <junit5.vintage.version>5.1.1</junit5.vintage.version>

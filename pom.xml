@@ -37,6 +37,9 @@
     <junit5.platform.version>1.1.1</junit5.platform.version>
     <junit5.jupiter.version>5.1.1</junit5.jupiter.version>
     <junit5.vintage.version>5.1.1</junit5.vintage.version>
+    <!-- hibernate -->
+    <hibernate.version>5.2.16.Final</hibernate.version>
+    <hibernate-validator.version>6.0.9.Final</hibernate-validator.version>
     <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
   </properties>
   <modules>

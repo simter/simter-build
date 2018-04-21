@@ -6,12 +6,12 @@ Modules :
 
 Sn | Name | Remark
 :---:|---|---
- 1 | simter-build          | Module Builder
- 2 | simter-dependencies   | Modules dependencies management
- 3 | simter-parent         | All sub modules parent module
+ 1 | simter-build          | Build modules and define global properties and pluginManagement
+ 2 | simter-dependencies   | Define global dependencyManagement
+ 3 | simter-parent         | All sub modules parent module, Define global dependencies and plugins
  4 | simter-\[sub-module\] |
 
-Remark : \[sub-module\] means simter-core and all other sub modules.
+Remark : 1, 2, 3 all has maven-enforcer-plugin and flatten-maven-plugin config. \[sub-module\] means simter-core and all other sub modules. They simter-\[sub-module\] must not configure them.
 
 Pom Inherited Structure : (A : B means B is the parent of A)
 

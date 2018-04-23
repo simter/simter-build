@@ -270,6 +270,7 @@
           <executions>
             <execution>
               <id>get-the-git-infos</id>
+              <phase>process-sources</phase>
               <goals>
                 <goal>revision</goal>
               </goals>
@@ -281,8 +282,7 @@
             <failOnNoGitDirectory>false</failOnNoGitDirectory>
             <dateFormat>yyyy-MM-dd'T'HH:mm:ssZ</dateFormat>
             <generateGitPropertiesFile>true</generateGitPropertiesFile>
-            <generateGitPropertiesFilename>${project.build.outputDirectory}/git.properties
-            </generateGitPropertiesFilename>
+            <generateGitPropertiesFilename>${project.build.outputDirectory}/git.properties</generateGitPropertiesFilename>
           </configuration>
         </plugin>
         <!-- exec:java -->

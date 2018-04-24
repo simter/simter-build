@@ -103,6 +103,11 @@
     <pluginManagement>
       <plugins>
         <plugin>
+          <groupId>org.jetbrains.kotlin</groupId>
+          <artifactId>kotlin-maven-plugin</artifactId>
+          <version>${kotlin.version}</version>
+        </plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-dependency-plugin</artifactId>
           <version>3.0.2</version>
@@ -191,7 +196,7 @@
             </includes>
           </configuration>
           <dependencies>
-          	<!-- junit5  -->
+            <!-- junit5  -->
             <dependency>
               <groupId>org.junit.platform</groupId>
               <artifactId>junit-platform-surefire-provider</artifactId>
@@ -202,7 +207,7 @@
               <artifactId>junit-jupiter-engine</artifactId>
               <version>${junit5.jupiter.version}</version>
             </dependency>
-          	<!-- allows junit5 backward compatibility with junit4 or junit3  -->
+            <!-- allows junit5 backward compatibility with junit4 or junit3  -->
             <dependency>
               <groupId>org.junit.vintage</groupId>
               <artifactId>junit-vintage-engine</artifactId>
@@ -282,7 +287,8 @@
             <failOnNoGitDirectory>false</failOnNoGitDirectory>
             <dateFormat>yyyy-MM-dd'T'HH:mm:ssZ</dateFormat>
             <generateGitPropertiesFile>true</generateGitPropertiesFile>
-            <generateGitPropertiesFilename>${project.build.outputDirectory}/git.properties</generateGitPropertiesFilename>
+            <generateGitPropertiesFilename>${project.build.outputDirectory}/git.properties
+            </generateGitPropertiesFilename>
           </configuration>
         </plugin>
         <!-- exec:java -->

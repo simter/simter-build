@@ -58,3 +58,6 @@
 [submodule "simter-dependencies"]
 	path = simter-dependencies
 	url = git@github.com:simter/simter-dependencies.git
+[submodule "simter-mongo-ext"]
+	path = simter-mongo-ext
+	url = git@github.com:simter/simter-mongo-ext.git

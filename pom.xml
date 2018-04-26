@@ -41,7 +41,7 @@
     <junit5.jupiter.version>5.1.1</junit5.jupiter.version>
     <junit5.vintage.version>5.1.1</junit5.vintage.version>
     <!-- mockito -->
-    <mockito.version>2.18.0</mockito.version>
+    <mockito.version>2.18.3</mockito.version>
     <mockito-kotlin.version>1.5.0</mockito-kotlin.version>
     <!-- hibernate -->
     <hibernate.version>5.2.16.Final</hibernate.version>

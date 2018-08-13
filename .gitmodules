@@ -64,3 +64,9 @@
 [submodule "simter-exception"]
 	path = simter-exception
 	url = git@github.com:simter/simter-exception.git
+[submodule "simter-reactive-context"]
+	path = simter-reactive-context
+	url = git@github.com:simter/simter-reactive-context.git
+[submodule "simter-reactive-web"]
+	path = simter-reactive-web
+	url = git@github.com:simter/simter-reactive-web.git

@@ -50,6 +50,8 @@
     <poi.version>3.17</poi.version>
     <!-- maven plugins -->
     <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
+    <!-- reactor -->
+    <reactor.version>3.1.6.RELEASE</reactor.version>
   </properties>
   <modules>
     <module>simter-dependencies</module>
@@ -74,6 +76,8 @@
     <module>simter-template</module>
     <module>simter-scheduling</module>
     <module>simter-exception</module>
+    <module>simter-reactive-context</module>
+    <module>simter-reactive-web</module>
     <!-- <module>simter-demo</module> -->
   </modules>
   <url>https://github.com/simter/simter-build</url>

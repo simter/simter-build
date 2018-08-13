@@ -61,3 +61,6 @@
 [submodule "simter-mongo-ext"]
 	path = simter-mongo-ext
 	url = git@github.com:simter/simter-mongo-ext.git
+[submodule "simter-exception"]
+	path = simter-exception
+	url = git@github.com:simter/simter-exception.git

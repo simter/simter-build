@@ -206,11 +206,6 @@
           <dependencies>
             <!-- junit5  -->
             <dependency>
-              <groupId>org.junit.platform</groupId>
-              <artifactId>junit-platform-surefire-provider</artifactId>
-              <version>${junit5.platform.version}</version>
-            </dependency>
-            <dependency>
               <groupId>org.junit.jupiter</groupId>
               <artifactId>junit-jupiter-engine</artifactId>
               <version>${junit5.jupiter.version}</version>

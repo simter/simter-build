@@ -49,7 +49,7 @@
     <!-- poi -->
     <poi.version>3.17</poi.version>
     <!-- maven plugins -->
-    <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
+    <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
     <!-- reactor -->
     <reactor.version>3.2.3.RELEASE</reactor.version>
   </properties>

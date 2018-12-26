@@ -79,3 +79,6 @@
 [submodule "simter-query"]
 	path = simter-query
 	url = git@github.com:simter/simter-query
+[submodule "simter-r2dbc-ext"]
+	path = simter-r2dbc-ext
+	url = git@github.com:simter/simter-r2dbc-ext.git

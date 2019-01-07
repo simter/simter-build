@@ -22,12 +22,6 @@
 [submodule "simter-security"]
 	path = simter-security
 	url = git@github.com:simter/simter-security.git
-[submodule "simter-meta"]
-	path = simter-meta
-	url = git@github.com:simter/simter-meta.git
-[submodule "simter-meta-jpa"]
-	path = simter-meta-jpa
-	url = git@github.com:simter/simter-meta-jpa.git
 [submodule "simter-core"]
 	path = simter-core
 	url = git@github.com:simter/simter-core.git
@@ -43,9 +37,6 @@
 [submodule "simter-test"]
 	path = simter-test
 	url = git@github.com:simter/simter-test.git
-[submodule "simter-id"]
-	path = simter-id
-	url = git@github.com:simter/simter-id.git
 [submodule "simter-template"]
 	path = simter-template
 	url = git@github.com:simter/simter-template.git

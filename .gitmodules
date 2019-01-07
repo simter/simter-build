@@ -43,9 +43,6 @@
 [submodule "simter-test"]
 	path = simter-test
 	url = git@github.com:simter/simter-test.git
-[submodule "simter-id"]
-	path = simter-id
-	url = git@github.com:simter/simter-id.git
 [submodule "simter-template"]
 	path = simter-template
 	url = git@github.com:simter/simter-template.git

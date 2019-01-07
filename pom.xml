@@ -76,7 +76,6 @@
     <module>simter-meta-jpa</module>
     <module>simter-rest-jaxrs</module>
     <module>simter-rest-jaxrs-jersey</module>
-    <module>simter-id</module>
     <module>simter-util</module>
     <module>simter-template</module>
     <module>simter-scheduling</module>

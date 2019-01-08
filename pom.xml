@@ -155,6 +155,21 @@
           </executions>
         </plugin>
         <plugin>
+          <groupId>org.jetbrains.dokka</groupId>
+          <artifactId>dokka-maven-plugin</artifactId>
+          <version>0.9.17</version>
+          <executions>
+            <execution>
+              <phase>package</phase>
+              <goals>
+                <!--<goal>dokka</goal>
+                <goal>javadoc</goal>-->
+                <goal>javadocJar</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.0.0</version>
@@ -400,7 +415,7 @@
         </plugins>
       </build>
     </profile>
-    <!-- deploy-bintray: Configuration for deploy to Simter Bintray Maven Repository -->
+    <!-- deploy-bintray: Configuration for deploy java module to Simter Bintray Maven Repository -->
     <profile>
       <id>bintray</id>
       <distributionManagement>
@@ -422,6 +437,36 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-javadoc-plugin</artifactId>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <!-- deploy-bintray: Configuration for deploy kotlin module to Simter Bintray Maven Repository -->
+    <profile>
+      <id>bintray-kotlin</id>
+      <distributionManagement>
+        <repository>
+          <id>bintray</id>
+          <url>https://api.bintray.com/maven/simter/maven/${project.groupId}:${project.artifactId}/;publish=1</url>
+        </repository>
+        <snapshotRepository>
+          <id>bintray</id>
+          <url>https://api.bintray.com/maven/simter/maven/${project.groupId}:${project.artifactId}/;publish=1</url>
+        </snapshotRepository>
+      </distributionManagement>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-source-plugin</artifactId>
+          </plugin>
+          <plugin>
+            <groupId>org.jetbrains.dokka</groupId>
+            <artifactId>dokka-maven-plugin</artifactId>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>

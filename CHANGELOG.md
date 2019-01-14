@@ -1,5 +1,14 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.1.0 - 2019-01-14 (spring-boot-2.1.2, spring-5.1.4)
+
+- Upgrade dependency management version : 
+    - spring.version=5.1.4.RELEASE
+    - spring-boot.version=2.1.2.RELEASE
+    - flapdoodle-embed-mongo.version=2.2.0
+    - reactor.version=3.2.5.RELEASE
+- Delete property `simter-r2dbc-ext`
+
 ## 1.0.1 - 2019-01-10
 
 - Add profile `bintray-kotlin` for kotlin module

@@ -73,3 +73,6 @@
 [submodule "simter-r2dbc-ext"]
 	path = simter-r2dbc-ext
 	url = git@github.com:simter/simter-r2dbc-ext.git
+[submodule "simter-kotlin"]
+	path = simter-kotlin
+	url = git@github.com:simter/simter-kotlin

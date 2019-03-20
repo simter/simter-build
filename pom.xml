@@ -55,7 +55,7 @@
     <!-- maven plugins -->
     <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
     <!-- reactor -->
-    <reactor.version>3.2.5.RELEASE</reactor.version>
+    <reactor.version>3.2.6.RELEASE</reactor.version>
   </properties>
   <modules>
     <module>simter-dependencies</module>

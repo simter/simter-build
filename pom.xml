@@ -47,6 +47,8 @@
     <!-- mockito -->
     <mockito.version>2.25.1</mockito.version>
     <mockito-kotlin.version>1.6.0</mockito-kotlin.version>
+    <!-- mockk -->
+    <mockk.version>1.9.2</mockk.version>
     <!-- hibernate -->
     <hibernate.version>5.4.0.Final</hibernate.version>
     <hibernate-validator.version>6.0.13.Final</hibernate-validator.version>

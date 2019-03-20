@@ -159,7 +159,7 @@
         <plugin>
           <groupId>org.jetbrains.dokka</groupId>
           <artifactId>dokka-maven-plugin</artifactId>
-          <version>0.9.17</version>
+          <version>0.9.18</version>
           <executions>
             <execution>
               <phase>package</phase>
@@ -228,13 +228,13 @@
             <dependency>
               <groupId>org.junit.jupiter</groupId>
               <artifactId>junit-jupiter-engine</artifactId>
-              <version>${junit5.jupiter.version}</version>
+              <version>${junit5.version}</version>
             </dependency>
             <!-- allows junit5 backward compatibility with junit4 or junit3  -->
             <dependency>
               <groupId>org.junit.vintage</groupId>
               <artifactId>junit-vintage-engine</artifactId>
-              <version>${junit5.vintage.version}</version>
+              <version>${junit5.version}</version>
             </dependency>
           </dependencies>
         </plugin>

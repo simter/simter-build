@@ -32,7 +32,7 @@
     <!-- r2dbc -->
     <spring-data-r2dbc.version>1.0.0.M1</spring-data-r2dbc.version>
     <spring-data-jdbc.version>1.1.0.M1</spring-data-jdbc.version>
-    <r2dbc.version>1.0.0.M6</r2dbc.version>
+    <r2dbc.version>1.0.0.M7</r2dbc.version>
     <!-- database -->
     <mysql.version>8.0.13</mysql.version>
     <postgresql.version>42.2.5</postgresql.version>

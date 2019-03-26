@@ -35,10 +35,11 @@
     <spring-data-r2dbc.version>1.0.0.M1</spring-data-r2dbc.version>
     <spring-data-jdbc.version>1.1.0.M2</spring-data-jdbc.version>
     <!-- database -->
+    <postgres-driver.version>42.2.5</postgres-driver.version>
     <mysql-driver.version>8.0.15</mysql-driver.version>
-    <postgre-driver.version>42.2.5</postgre-driver.version>
-    <!-- database: embed -->
+    <!-- embedded-database -->
     <mongo-embedded.version>3.5.5</mongo-embedded.version>
+    <!-- 9.5.16-1, 9.6.12-1, 10.7-1, 11.2-1 -->
     <postgres-embedded.version>9.6.12-1</postgres-embedded.version>
     <!-- junit -->
     <junit4.version>4.12</junit4.version>

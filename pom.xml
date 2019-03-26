@@ -39,6 +39,7 @@
     <postgresql.version>42.2.5</postgresql.version>
     <!-- database: embed -->
     <mongo-embedded.version>3.5.5</mongo-embedded.version>
+    <postgres-embedded.version>9.6.12-1</postgres-embedded.version>
     <!-- junit -->
     <junit4.version>4.12</junit4.version>
     <junit5.version>5.4.1</junit5.version>

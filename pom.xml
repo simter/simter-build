@@ -37,6 +37,7 @@
     <!-- database -->
     <postgres-driver.version>42.2.5</postgres-driver.version>
     <mysql-driver.version>8.0.15</mysql-driver.version>
+    <h2-driver.version>1.4.199</h2-driver.version>
     <!-- embedded-database -->
     <mongo-embedded.version>3.5.5</mongo-embedded.version>
     <!-- 9.5.16-1, 9.6.12-1, 10.7-1, 11.2-1 -->

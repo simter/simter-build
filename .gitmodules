@@ -76,3 +76,6 @@
 [submodule "simter-kotlin"]
 	path = simter-kotlin
 	url = git@github.com:simter/simter-kotlin
+[submodule "simter-embedded-database-ext"]
+	path = simter-embedded-database-ext
+	url = git@github.com:simter/simter-embedded-database-ext.git

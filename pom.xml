@@ -35,11 +35,14 @@
     <spring-data-r2dbc.version>1.0.0.M1</spring-data-r2dbc.version>
     <spring-data-jdbc.version>1.1.0.M2</spring-data-jdbc.version>
     <!-- database -->
-    <mysql.version>8.0.13</mysql.version>
-    <postgresql.version>42.2.5</postgresql.version>
-    <!-- database: embed -->
-    <flapdoodle-embed-mongo.version>2.2.0</flapdoodle-embed-mongo.version>
+    <postgres-driver.version>42.2.5</postgres-driver.version>
+    <mysql-driver.version>8.0.15</mysql-driver.version>
+    <h2-driver.version>1.4.199</h2-driver.version>
+    <hsql-driver.version>2.4.1</hsql-driver.version>
+    <!-- embedded-database -->
     <mongo-embedded.version>3.5.5</mongo-embedded.version>
+    <!-- 9.5.16-1, 9.6.12-1, 10.7-1, 11.2-1 -->
+    <postgres-embedded.version>9.6.12-1</postgres-embedded.version>
     <!-- junit -->
     <junit4.version>4.12</junit4.version>
     <junit5.version>5.4.1</junit5.version>
@@ -86,6 +89,7 @@
     <module>simter-query</module>
     <module>simter-r2dbc-ext</module>
     <module>simter-kotlin</module>
+    <module>simter-embedded-database-ext</module>
     <!-- <module>simter-demo</module> -->
   </modules>
   <url>https://github.com/simter/simter-build</url>

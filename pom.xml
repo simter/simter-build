@@ -89,6 +89,7 @@
     <module>simter-reactive-web</module>
     <module>simter-reactive-security</module>
     <module>simter-reactive-jpa</module>
+    <module>simter-reactive-test</module>
     <module>simter-query</module>
     <module>simter-r2dbc-ext</module>
     <module>simter-kotlin</module>

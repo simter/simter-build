@@ -82,3 +82,6 @@
 [submodule "simter-reactive-jpa"]
 	path = simter-reactive-jpa
 	url = git@github.com:simter/simter-reactive-jpa.git
+[submodule "simter-reactive-test"]
+	path = simter-reactive-test
+	url = git@github.com:simter/simter-reactive-test.git

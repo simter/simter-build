@@ -85,3 +85,6 @@
 [submodule "simter-reactive-test"]
 	path = simter-reactive-test
 	url = git@github.com:simter/simter-reactive-test.git
+[submodule "simter-jackson-jsonb"]
+	path = simter-jackson-jsonb
+	url = git@github.com:simter/simter-jackson-jsonb.git

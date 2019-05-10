@@ -83,6 +83,7 @@
     <module>simter-jxls-ext</module>
     <module>simter-mongo-ext</module>
     <module>simter-jackson-ext</module>
+    <module>simter-jackson-jsonb</module>
     <module>simter-http</module>
     <module>simter-security</module>
     <module>simter-rest-jaxrs</module>

@@ -64,9 +64,6 @@
 [submodule "simter-reactive-security"]
 	path = simter-reactive-security
 	url = git@github.com:simter/simter-reactive-security.git
-[submodule "simter-jackson-ext"]
-	path = simter-jackson-ext
-	url = git@github.com:simter/simter-jackson-ext.git
 [submodule "simter-query"]
 	path = simter-query
 	url = git@github.com:simter/simter-query

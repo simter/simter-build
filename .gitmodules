@@ -85,3 +85,6 @@
 [submodule "simter-jackson-jsonb"]
 	path = simter-jackson-jsonb
 	url = git@github.com:simter/simter-jackson-jsonb.git
+[submodule "simter-jackson-javatime"]
+	path = simter-jackson-javatime
+	url = git@github.com:simter/simter-jackson-javatime.git

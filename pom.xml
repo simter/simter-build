@@ -136,6 +136,43 @@
           <groupId>org.jetbrains.kotlin</groupId>
           <artifactId>kotlin-maven-plugin</artifactId>
           <version>${kotlin.version}</version>
+          <executions>
+            <execution>
+              <id>compile</id>
+              <goals>
+                <goal>compile</goal>
+              </goals>
+            </execution>
+            <execution>
+              <id>test-compile</id>
+              <goals>
+                <goal>test-compile</goal>
+              </goals>
+            </execution>
+          </executions>
+          <configuration>
+            <!-- 1.6, 1.8, 9, 10, 11, 12 -->
+            <jvmTarget>${java.version}</jvmTarget>
+            <!--<nowarn>true</nowarn>-->
+            <!-- 1.0, 1.1, 1.2, 1.3 -->
+            <languageVersion>1.3</languageVersion>
+            <!-- 1.0, 1.1, 1.2, 1.3 -->
+            <apiVersion>1.3</apiVersion>
+          </configuration>
+          <dependencies>
+            <!-- https://kotlinlang.org/docs/reference/compiler-plugins.html#all-open-compiler-plugin -->
+            <dependency>
+              <groupId>org.jetbrains.kotlin</groupId>
+              <artifactId>kotlin-maven-allopen</artifactId>
+              <version>${kotlin.version}</version>
+            </dependency>
+            <!-- https://kotlinlang.org/docs/reference/compiler-plugins.html#no-arg-compiler-plugin -->
+            <dependency>
+              <groupId>org.jetbrains.kotlin</groupId>
+              <artifactId>kotlin-maven-noarg</artifactId>
+              <version>${kotlin.version}</version>
+            </dependency>
+          </dependencies>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>

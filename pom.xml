@@ -70,6 +70,14 @@
       Californium-SR5 > reactor-core-3.2.6.RELEASE
     -->
     <reactor.version>Californium-SR6</reactor.version>
+
+    <!-- latest milestone version -->
+    <spring.milestone.version>5.2.0.M2</spring.milestone.version>
+    <spring-boot.milestone.version>2.2.0.M3</spring-boot.milestone.version>
+    <reactor.milestone.version>Dysprosium-M1</reactor.milestone.version>
+    <r2dbc.milestone.version>Arabba-M8</r2dbc.milestone.version>
+    <spring-data-r2dbc.milestone.version>1.0.0.M2</spring-data-r2dbc.milestone.version>
+    <spring-data-jdbc.milestone.version>1.1.0.M4</spring-data-jdbc.milestone.version>
   </properties>
   <modules>
     <module>simter-dependencies</module>

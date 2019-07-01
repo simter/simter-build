@@ -58,7 +58,7 @@
     <springmockk.version>1.1.2</springmockk.version>
     <!-- hibernate -->
     <hibernate.version>5.4.3.Final</hibernate.version>
-    <hibernate-validator.version>6.0.16.Final</hibernate-validator.version>
+    <hibernate-validator.version>6.0.17.Final</hibernate-validator.version>
     <!-- EclipseLink -->
     <eclipselink.version>2.7.4</eclipselink.version>
     <!-- poi -->

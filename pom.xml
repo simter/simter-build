@@ -64,7 +64,7 @@
     <!-- poi -->
     <poi.version>4.0.1</poi.version>
     <!-- maven plugins -->
-    <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
+    <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
     <!-- reactor 
       Californium-SR6 > reactor-core-3.2.8.RELEASE
       Californium-SR5 > reactor-core-3.2.6.RELEASE

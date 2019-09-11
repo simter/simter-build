@@ -80,7 +80,7 @@
     <reactor.version>Californium-SR9</reactor.version>
 
     <!-- latest milestone version -->
-    <spring.milestone.version>5.2.0.M3</spring.milestone.version>
+    <spring.milestone.version>5.2.0.M2</spring.milestone.version>
     <spring-data-releasetrain.milestone.version>Moore-RC1</spring-data-releasetrain.milestone.version>
     <spring-boot.milestone.version>2.2.0.M4</spring-boot.milestone.version>
     <reactor.milestone.version>Dysprosium-M2</reactor.milestone.version>

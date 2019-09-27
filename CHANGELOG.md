@@ -1,5 +1,9 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.2.1 - 2019-09-27
+
+- Align version with simter-dependency-1.2.1
+
 ## 1.2.0 - 2019-07-03 (spring-boot-2.1.6, spring-5.1.8, kotlin-1.3.40, reactor-3.2)
 
 - Upgrade dependency management version : 

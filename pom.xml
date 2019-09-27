@@ -38,7 +38,7 @@
     <!-- spring-boot -->
     <spring-boot.version>2.1.8.RELEASE</spring-boot.version>
     <!-- r2dbc relative -->
-    <r2dbc.version>Arabba-M8</r2dbc.version>
+    <r2dbc.version>Arabba-RC1</r2dbc.version>
     <spring-data-r2dbc.version>1.0.0.M2</spring-data-r2dbc.version>
     <spring-boot-r2dbc.version>0.1.0.M1</spring-boot-r2dbc.version>
     <!-- database -->

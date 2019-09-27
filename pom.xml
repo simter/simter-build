@@ -29,11 +29,12 @@
     <!-- spring -->
     <spring.version>5.1.9.RELEASE</spring.version>
     <!-- spring-data-releasetrain
+      Lovelace-SR10 > -commons|jpa|mongodb-2.1.10, -jdbc-1.0.10, ...
       Lovelace-SR9 > -commons|jpa|mongodb-2.1.9, -jdbc-1.0.9, ...
 
       Moore-RC1 > -commons|jpa|mongodb-2.2.0.RC1, -jdbc|relational-1.1.0.RC1, ...
     -->
-    <spring-data-releasetrain.version>Lovelace-SR9</spring-data-releasetrain.version>
+    <spring-data-releasetrain.version>Lovelace-SR10</spring-data-releasetrain.version>
     <!-- spring-boot -->
     <spring-boot.version>2.1.8.RELEASE</spring-boot.version>
     <!-- r2dbc relative -->
@@ -81,7 +82,7 @@
 
     <!-- latest milestone version -->
     <spring.milestone.version>5.2.0.RC2</spring.milestone.version>
-    <spring-data-releasetrain.milestone.version>Moore-RC1</spring-data-releasetrain.milestone.version>
+    <spring-data-releasetrain.milestone.version>Moore-RC3</spring-data-releasetrain.milestone.version>
     <spring-boot.milestone.version>2.2.0.M6</spring-boot.milestone.version>
     <reactor.milestone.version>Dysprosium-M2</reactor.milestone.version>
   </properties>

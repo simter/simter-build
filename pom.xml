@@ -35,7 +35,7 @@
     -->
     <spring-data-releasetrain.version>Lovelace-SR9</spring-data-releasetrain.version>
     <!-- spring-boot -->
-    <spring-boot.version>2.1.6.RELEASE</spring-boot.version>
+    <spring-boot.version>2.1.8.RELEASE</spring-boot.version>
     <!-- r2dbc relative -->
     <r2dbc.version>Arabba-M8</r2dbc.version>
     <spring-data-r2dbc.version>1.0.0.M2</spring-data-r2dbc.version>
@@ -82,7 +82,7 @@
     <!-- latest milestone version -->
     <spring.milestone.version>5.2.0.RC2</spring.milestone.version>
     <spring-data-releasetrain.milestone.version>Moore-RC1</spring-data-releasetrain.milestone.version>
-    <spring-boot.milestone.version>2.2.0.M4</spring-boot.milestone.version>
+    <spring-boot.milestone.version>2.2.0.M6</spring-boot.milestone.version>
     <reactor.milestone.version>Dysprosium-M2</reactor.milestone.version>
   </properties>
   <modules>

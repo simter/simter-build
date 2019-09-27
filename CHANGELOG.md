@@ -1,5 +1,30 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.2.0 - 2019-07-03 (spring-boot-2.1.6, spring-5.1.8, kotlin-1.3.40, reactor-3.2)
+
+- Upgrade dependency management version : 
+    - spring.version=5.1.8.RELEASE
+    - spring-boot.version=2.1.6.RELEASE
+    - r2dbc.version=Arabba-M8 (spi-0.8.0.M8)
+    - reactor.version=Californium-SR9 (core-3.2.10.RELEASE)
+    - junit5.version=5.5.0
+    - mockk.version=1.9.3
+    - springmockk.version=1.1.2
+    - hibernate.version=5.4.3.Final
+    - hibernate-validator.version=6.0.17.Final
+    - eclipselink.version=2.7.4
+    - maven-surefire-plugin.version=2.22.2
+    - postgres-driver.version=42.2.5
+    - mysql-driver.version=8.0.15
+    - h2-driver.version=1.4.199
+    - hsql-driver.version=2.4.1
+    - derby-driver.version=10.14.2.0
+- Upgrade milestone dependency management version:
+    - spring.milestone.version=5.2.0.M3
+    - spring-data-releasetrain.milestone.version=Moore-RC1
+    - spring-boot.milestone.version=2.2.0.M4
+    - reactor.milestone.version=Dysprosium-M2
+
 ## 1.1.0 - 2019-01-14 (spring-boot-2.1.2, spring-5.1.4)
 
 - Upgrade dependency management version : 

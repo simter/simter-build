@@ -45,7 +45,7 @@
     <postgres-driver.version>42.2.5</postgres-driver.version>
     <mysql-driver.version>8.0.15</mysql-driver.version>
     <h2-driver.version>1.4.199</h2-driver.version>
-    <hsql-driver.version>2.4.1</hsql-driver.version>
+    <hsql-driver.version>2.5.0</hsql-driver.version>
     <derby-driver.version>10.14.2.0</derby-driver.version>
     <!-- embedded-database -->
     <mongo-embedded.version>3.5.5</mongo-embedded.version>

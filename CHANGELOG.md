@@ -1,5 +1,19 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.3.0-M2 - 2019-10-08
+
+- Upgrade to spring-5.2.0
+- Upgrade to spring-data-releasetrain-Moore-RELEASE(2.2.0)
+- Upgrade to spring-boot-2.2.0.RC1
+- Upgrade to r2dbc-Arabba-RC2(0.8.0.RC2)
+- Upgrade to spring-data-r2dbc-1.0.0.RC1
+- Upgrade to spring-boot-r2dbc-0.1.0.M2
+- Upgrade to springmockk-1.1.3
+- Upgrade to postgres-42.2.8
+- Upgrade to mysql-8.0.17
+- Upgrade to hsql-2.5.0
+- Upgrade to derby-10.15.1.3
+
 ## 1.3.0-M1 - 2019-09-27
 
 - Upgrade to r2dbc-Arabba-RC1(0.8.0.RC1)

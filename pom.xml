@@ -8,8 +8,8 @@
   <name>simter-build</name>
   <description>Simter Build</description>
   <properties>
-    <revision>1.2.1</revision>
-    <simter.version>1.2.1</simter.version>
+    <revision>1.3.0-M1</revision>
+    <simter.version>1.3.0-M1</simter.version>
 
     <!-- maven global setting-->
     <java.version>1.8</java.version>
@@ -25,19 +25,20 @@
     <gpg.executable>gpg</gpg.executable>
     <!-- kotlin -->
     <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
-    <kotlin.version>1.3.40</kotlin.version>
+    <kotlin.version>1.3.50</kotlin.version>
     <!-- spring -->
-    <spring.version>5.1.8.RELEASE</spring.version>
+    <spring.version>5.1.9.RELEASE</spring.version>
     <!-- spring-data-releasetrain
+      Lovelace-SR10 > -commons|jpa|mongodb-2.1.10, -jdbc-1.0.10, ...
       Lovelace-SR9 > -commons|jpa|mongodb-2.1.9, -jdbc-1.0.9, ...
 
       Moore-RC1 > -commons|jpa|mongodb-2.2.0.RC1, -jdbc|relational-1.1.0.RC1, ...
     -->
-    <spring-data-releasetrain.version>Lovelace-SR9</spring-data-releasetrain.version>
+    <spring-data-releasetrain.version>Lovelace-SR10</spring-data-releasetrain.version>
     <!-- spring-boot -->
-    <spring-boot.version>2.1.6.RELEASE</spring-boot.version>
+    <spring-boot.version>2.1.8.RELEASE</spring-boot.version>
     <!-- r2dbc relative -->
-    <r2dbc.version>Arabba-M8</r2dbc.version>
+    <r2dbc.version>Arabba-RC1</r2dbc.version>
     <spring-data-r2dbc.version>1.0.0.M2</spring-data-r2dbc.version>
     <spring-boot-r2dbc.version>0.1.0.M1</spring-boot-r2dbc.version>
     <!-- database -->
@@ -53,15 +54,15 @@
     <mysql-embedded.version>5.7.19</mysql-embedded.version>
     <!-- junit -->
     <junit4.version>4.12</junit4.version>
-    <junit5.version>5.5.0</junit5.version>
+    <junit5.version>5.5.2</junit5.version>
     <!-- mockito -->
-    <mockito.version>2.28.2</mockito.version>
+    <mockito.version>3.0.0</mockito.version>
     <mockito-kotlin.version>1.6.0</mockito-kotlin.version>
     <!-- mockk -->
     <mockk.version>1.9.3</mockk.version>
     <springmockk.version>1.1.2</springmockk.version>
     <!-- hibernate -->
-    <hibernate.version>5.4.3.Final</hibernate.version>
+    <hibernate.version>5.4.5.Final</hibernate.version>
     <hibernate-validator.version>6.0.17.Final</hibernate-validator.version>
     <!-- EclipseLink -->
     <eclipselink.version>2.7.4</eclipselink.version>
@@ -74,16 +75,17 @@
       Californium-SR6 > reactor-core-3.2.8.RELEASE
       Californium-SR5 > reactor-core-3.2.6.RELEASE
 
+      Dysprosium-RELEASE > reactor-core-3.3.0
       Dysprosium-M2 > reactor-core-3.3.0.M2
       Dysprosium-M1 > reactor-core-3.3.0.M1
     -->
-    <reactor.version>Californium-SR9</reactor.version>
+    <reactor.version>Dysprosium-RELEASE</reactor.version>
 
     <!-- latest milestone version -->
-    <spring.milestone.version>5.2.0.M3</spring.milestone.version>
-    <spring-data-releasetrain.milestone.version>Moore-RC1</spring-data-releasetrain.milestone.version>
-    <spring-boot.milestone.version>2.2.0.M4</spring-boot.milestone.version>
-    <reactor.milestone.version>Dysprosium-M2</reactor.milestone.version>
+    <spring.milestone.version>5.2.0.RC2</spring.milestone.version>
+    <spring-data-releasetrain.milestone.version>Moore-RC3</spring-data-releasetrain.milestone.version>
+    <spring-boot.milestone.version>2.2.0.M6</spring-boot.milestone.version>
+    <reactor.milestone.version>Dysprosium-RELEASE</reactor.milestone.version>
   </properties>
   <modules>
     <module>simter-dependencies</module>

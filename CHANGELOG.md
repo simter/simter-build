@@ -1,5 +1,17 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.3.0-M1 - 2019-09-27
+
+- Upgrade to r2dbc-Arabba-RC1(0.8.0.RC1)
+- Upgrade to hibernate-5.4.5
+- Upgrade to mockito-3.0.0
+- Upgrade to junit-5.5.2
+- Upgrade to reactor-Dysprosium-RELEASE(3.3.0)
+- Upgrade to spring-data-releasetrain-Lovelace-SR10(2.1.10) and Moore-RC3(2.2.0.RC3)
+- Upgrade to spring-boot-2.1.8 and 2.2.0.M6
+- Upgrade to spring-5.1.9 and 5.2.0.RC2
+- Upgrade to kotlin-1.3.50
+
 ## 1.2.1 - 2019-09-27
 
 - Align version with simter-dependency-1.2.1

@@ -1,5 +1,15 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.3.0-M3 - 2019-10-18
+
+- Upgrade to spring-boot-2.2.0.RELEASE
+- Set default postgres-embedded.version=10.10-2
+- Set default mysql-embedded.version=8.0.17
+- Upgrade to mysql-driver-8.0.18
+- Upgrade to hibernate-5.4.6.Final
+- Upgrade to mockito-kotlin-2.2.0
+- Upgrade to mockito-3.1.0
+
 ## 1.3.0-M2 - 2019-10-08
 
 - Upgrade to spring-5.2.0

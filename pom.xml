@@ -8,8 +8,8 @@
   <name>simter-build</name>
   <description>Simter Build</description>
   <properties>
-    <revision>1.3.0-M3</revision>
-    <simter.version>1.3.0-M3</simter.version>
+    <revision>1.3.0-M4</revision>
+    <simter.version>1.3.0-M4</simter.version>
 
     <!-- maven global setting-->
     <java.version>1.8</java.version>
@@ -27,16 +27,16 @@
     <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
     <kotlin.version>1.3.50</kotlin.version>
     <!-- spring -->
-    <spring.version>5.2.0.RELEASE</spring.version>
+    <spring.version>5.2.1.RELEASE</spring.version>
     <!-- spring-data-releasetrain
       Lovelace-SR10 > -commons|jpa|mongodb-2.1.10, -jdbc-1.0.10, ...
       Lovelace-SR9 > -commons|jpa|mongodb-2.1.9, -jdbc-1.0.9, ...
 
       Moore-RC1 > -commons|jpa|mongodb-2.2.0.RC1, -jdbc|relational-1.1.0.RC1, ...
     -->
-    <spring-data-releasetrain.version>Moore-RELEASE</spring-data-releasetrain.version>
+    <spring-data-releasetrain.version>Moore-SR1</spring-data-releasetrain.version>
     <!-- spring-boot -->
-    <spring-boot.version>2.2.0.RELEASE</spring-boot.version>
+    <spring-boot.version>2.2.1.RELEASE</spring-boot.version>
     <!-- r2dbc relative -->
     <r2dbc.version>Arabba-RC2</r2dbc.version>
     <spring-data-r2dbc.version>1.0.0.RC1</spring-data-r2dbc.version>
@@ -44,7 +44,7 @@
     <!-- database -->
     <postgres-driver.version>42.2.8</postgres-driver.version>
     <mysql-driver.version>8.0.18</mysql-driver.version>
-    <h2-driver.version>1.4.199</h2-driver.version>
+    <h2-driver.version>1.4.200</h2-driver.version>
     <hsql-driver.version>2.5.0</hsql-driver.version>
     <derby-driver.version>10.15.1.3</derby-driver.version>
     <!-- embedded-database -->
@@ -63,10 +63,10 @@
     <mockk.version>1.9.3</mockk.version>
     <springmockk.version>1.1.3</springmockk.version>
     <!-- hibernate -->
-    <hibernate.version>5.4.6.Final</hibernate.version>
-    <hibernate-validator.version>6.0.17.Final</hibernate-validator.version>
+    <hibernate.version>5.4.8.Final</hibernate.version>
+    <hibernate-validator.version>6.1.0.Final</hibernate-validator.version>
     <!-- EclipseLink -->
-    <eclipselink.version>2.7.4</eclipselink.version>
+    <eclipselink.version>2.7.5</eclipselink.version>
     <!-- poi -->
     <poi.version>4.0.1</poi.version>
     <!-- maven plugins -->
@@ -80,13 +80,13 @@
       Dysprosium-M2 > reactor-core-3.3.0.M2
       Dysprosium-M1 > reactor-core-3.3.0.M1
     -->
-    <reactor.version>Dysprosium-RELEASE</reactor.version>
+    <reactor.version>Dysprosium-SR1</reactor.version>
 
     <!-- latest milestone version -->
-    <spring.milestone.version>5.2.0.RELEASE</spring.milestone.version>
-    <spring-data-releasetrain.milestone.version>Moore-RELEASE</spring-data-releasetrain.milestone.version>
-    <spring-boot.milestone.version>2.2.0.RELEASE</spring-boot.milestone.version>
-    <reactor.milestone.version>Dysprosium-RELEASE</reactor.milestone.version>
+    <spring.milestone.version>5.2.1.RELEASE</spring.milestone.version>
+    <spring-data-releasetrain.milestone.version>Moore-SR1</spring-data-releasetrain.milestone.version>
+    <spring-boot.milestone.version>2.2.1.RELEASE</spring-boot.milestone.version>
+    <reactor.milestone.version>Dysprosium-SR1</reactor.milestone.version>
   </properties>
   <modules>
     <module>simter-dependencies</module>

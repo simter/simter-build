@@ -1,5 +1,16 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.3.0-M4 - 2019-11-07
+
+- Upgrade to reactor-Dysprosium-SR1
+- Upgrade to spring-data-releasetrain-Moore-SR1
+- Upgrade to spring-boot-2.2.1
+- Upgrade to spring-5.2.1
+- Upgrade to eclipselink-2.7.5
+- Upgrade to hibernate-validator-6.1.0.Final
+- Upgrade to hibernate-5.4.8.Final
+- Upgrade to h2-1.4.200
+
 ## 1.3.0-M3 - 2019-10-18
 
 - Upgrade to spring-boot-2.2.0.RELEASE

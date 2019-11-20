@@ -548,5 +548,31 @@
         </plugins>
       </build>
     </profile>
+    <!-- deploy-bintray: Configuration for deploy java module to Simter Bintray Maven Repository -->
+    <profile>
+      <id>github</id>
+      <distributionManagement>
+        <repository>
+          <id>github</id>
+          <url>https://maven.pkg.github.com/simter/maven-releases</url>
+        </repository>
+        <snapshotRepository>
+          <id>github</id>
+          <url>https://maven.pkg.github.com/simter/maven-snapshots</url>
+        </snapshotRepository>
+      </distributionManagement>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-source-plugin</artifactId>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
   </profiles>
 </project>

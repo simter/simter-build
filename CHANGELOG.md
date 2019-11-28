@@ -1,5 +1,20 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.3.0-M7 - 2019-11-26
+
+- Downcast h2 to 1.4.199 (for r2dbc-0.8.0-RC2)
+- Add kotlinx-coroutines.version=1.3.2
+- Add kotlinx-serialization.version=0.13.0
+- Add kotlin-maven-serialization to kotlin-maven-plugin
+
+## 1.3.0-M6 - 2019-11-20
+
+- Follow simter-dependencies-1.3.0-M6
+
+## 1.3.0-M5 - 2019-11-16
+
+- Follow simter-dependencies-1.3.0-M5
+
 ## 1.3.0-M4 - 2019-11-07
 
 - Upgrade to reactor-Dysprosium-SR1

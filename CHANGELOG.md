@@ -1,5 +1,14 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.3.0-M8 - 2019-12-03
+
+- Upgrade to reactor-Dysprosium-SR2
+- Upgrade to spring-data-releasetrain-Moore-SR2
+- Upgrade to kotlin-1.3.61
+- Upgrade to kotlin-serialization-0.14.0
+- Upgrade to mockito-3.2.0
+- Upgrade to hibernate-5.4.9.Final
+
 ## 1.3.0-M7 - 2019-11-26
 
 - Downcast h2 to 1.4.199 (for r2dbc-0.8.0-RC2)

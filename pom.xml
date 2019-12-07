@@ -45,7 +45,7 @@
     <!-- r2dbc relative -->
     <r2dbc.version>Arabba-RELEASE</r2dbc.version>
     <spring-data-r2dbc.version>1.0.0.RELEASE</spring-data-r2dbc.version>
-    <spring-boot-r2dbc.version>0.1.0.M2</spring-boot-r2dbc.version>
+    <spring-boot-r2dbc.version>0.1.0.M3</spring-boot-r2dbc.version>
     <!-- database -->
     <postgres-driver.version>42.2.8</postgres-driver.version>
     <mysql-driver.version>8.0.18</mysql-driver.version>

@@ -41,7 +41,7 @@
     -->
     <spring-data-releasetrain.version>Moore-SR3</spring-data-releasetrain.version>
     <!-- spring-boot -->
-    <spring-boot.version>2.2.1.RELEASE</spring-boot.version>
+    <spring-boot.version>2.2.2.RELEASE</spring-boot.version>
     <!-- r2dbc relative -->
     <r2dbc.version>Arabba-RELEASE</r2dbc.version>
     <spring-data-r2dbc.version>1.0.0.RELEASE</spring-data-r2dbc.version>
@@ -92,7 +92,7 @@
     <!-- latest milestone version -->
     <spring.milestone.version>5.2.2.RELEASE</spring.milestone.version>
     <spring-data-releasetrain.milestone.version>Moore-SR3</spring-data-releasetrain.milestone.version>
-    <spring-boot.milestone.version>2.2.1.RELEASE</spring-boot.milestone.version>
+    <spring-boot.milestone.version>2.2.2.RELEASE</spring-boot.milestone.version>
     <reactor.milestone.version>Dysprosium-SR2</reactor.milestone.version>
   </properties>
   <modules>

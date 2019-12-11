@@ -1,5 +1,12 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.3.0-M9 - 2019-12-11
+
+- Upgrade to spring-5.2.2
+- Upgrade to spring-data-releasetrain-Moore-SR3
+- Upgrade to r2dbc-Arabba-RELEASE
+- Upgrade to h2-1.4.200 (follow r2dbc-Arabba-RELEASE)
+
 ## 1.3.0-M8 - 2019-12-03
 
 - Upgrade to reactor-Dysprosium-SR2

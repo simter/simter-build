@@ -74,7 +74,7 @@
     <!-- EclipseLink -->
     <eclipselink.version>2.7.5</eclipselink.version>
     <!-- poi -->
-    <poi.version>4.0.1</poi.version>
+    <poi.version>4.1.1</poi.version>
     <!-- maven plugins -->
     <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
     <!-- reactor

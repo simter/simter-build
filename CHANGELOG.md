@@ -1,5 +1,9 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.3.0-M11 - 2020-01-08
+
+- Follow simter-dependencies-1.3.0-M11
+
 ## 1.3.0-M10 - 2019-12-18
 
 - Upgrade to poi-4.1.1

@@ -1,5 +1,19 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.3.0-M12 - 2020-01-19
+
+- pgrade to spring-boot-2.2.3
+- pgrade to spring-5.2.3
+- pgrade to spring-data-releasetrain-Moore-SR4
+- pgrade to reactor-Dysprosium-SR3
+- pgrade to springmockk-2.0.0
+- pgrade to postgres-42.2.9
+- pgrade to mysql-8.0.19
+- pgrade to hibernate-validator-6.1.1
+- pgrade to hibernate-5.4.10
+- pgrade to mockito-3.2.4
+- pgrade to junit4-4.12
+
 ## 1.3.0-M11 - 2020-01-08
 
 - Follow simter-dependencies-1.3.0-M11

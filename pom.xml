@@ -48,7 +48,7 @@
     <spring-data-r2dbc.version>1.0.0.RELEASE</spring-data-r2dbc.version>
     <spring-boot-r2dbc.version>0.1.0.M3</spring-boot-r2dbc.version>
     <!-- database -->
-    <postgres-driver.version>42.2.8</postgres-driver.version>
+    <postgres-driver.version>42.2.9</postgres-driver.version>
     <mysql-driver.version>8.0.19</mysql-driver.version>
     <h2-driver.version>1.4.200</h2-driver.version>
     <hsql-driver.version>2.5.0</hsql-driver.version>

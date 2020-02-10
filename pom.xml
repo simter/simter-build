@@ -72,7 +72,7 @@
     <hibernate.version>5.4.10.Final</hibernate.version>
     <hibernate-validator.version>6.1.1.Final</hibernate-validator.version>
     <!-- EclipseLink -->
-    <eclipselink.version>2.7.5</eclipselink.version>
+    <eclipselink.version>2.7.6</eclipselink.version>
     <!-- poi -->
     <poi.version>4.1.1</poi.version>
     <!-- maven plugins -->

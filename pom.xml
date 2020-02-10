@@ -92,7 +92,7 @@
     <reactor.version>Dysprosium-SR4</reactor.version>
 
     <!-- latest milestone version -->
-    <spring.milestone.version>5.2.3.RELEASE</spring.milestone.version>
+    <spring-framework.milestone.version>5.2.3.RELEASE</spring-framework.milestone.version>
     <spring-data-releasetrain.milestone.version>Neumann-M2</spring-data-releasetrain.milestone.version>
     <spring-data-r2dbc.milestone.version>1.1.0.M2</spring-data-r2dbc.milestone.version>
     <spring-boot.milestone.version>2.3.0.M1</spring-boot.milestone.version>

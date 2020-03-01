@@ -126,6 +126,7 @@
     <module>simter-reactive-context</module>
     <module>simter-reactive-web</module>
     <module>simter-reactive-security</module>
+    <module>simter-reactive-io</module>
     <module>simter-reactive-jpa</module>
     <module>simter-reactive-test</module>
     <module>simter-query</module>

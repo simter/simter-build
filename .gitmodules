@@ -88,3 +88,6 @@
 [submodule "simter-jackson-javatime"]
 	path = simter-jackson-javatime
 	url = git@github.com:simter/simter-jackson-javatime.git
+[submodule "simter-reactive-io"]
+	path = simter-reactive-io
+	url = git@github.com:simter/simter-reactive-io

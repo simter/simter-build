@@ -39,7 +39,7 @@
       Moore-SR1 > -commons|jpa|mongodb-2.2.1, -jdbc|relational-1.1.1, ...
       Moore-RELEASE > -commons|jpa|mongodb-2.2.0, -jdbc|relational-1.1.0, ...
     -->
-    <spring-data-releasetrain.version>Moore-SR4</spring-data-releasetrain.version>
+    <spring-data-releasetrain.version>Moore-SR5</spring-data-releasetrain.version>
     <!-- spring-boot -->
     <spring-boot.version>2.2.5.RELEASE</spring-boot.version>
     <!-- r2dbc relative -->
@@ -93,7 +93,7 @@
 
     <!-- latest milestone version -->
     <spring-framework.milestone.version>5.2.4.RELEASE</spring-framework.milestone.version>
-    <spring-data-releasetrain.milestone.version>Neumann-M2</spring-data-releasetrain.milestone.version>
+    <spring-data-releasetrain.milestone.version>Neumann-M3</spring-data-releasetrain.milestone.version>
     <spring-data-r2dbc.milestone.version>1.1.0.M2</spring-data-r2dbc.milestone.version>
     <spring-boot.milestone.version>2.3.0.M2</spring-boot.milestone.version>
     <spring-boot-r2dbc.milestone.version>0.1.0.M3</spring-boot-r2dbc.milestone.version>

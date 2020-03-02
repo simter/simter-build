@@ -416,6 +416,21 @@
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-maven-plugin</artifactId>
           <version>${spring-boot.version}</version>
+          <configuration>
+            <!-- 
+              https://docs.spring.io/spring-boot/docs/current/maven-plugin/run-mojo.html#fork
+              https://github.com/spring-projects/spring-boot/issues/18948
+              Since spring-boot-2.2.0, this property's default value change from 'false' to 'true'.
+              And we met two probloms:
+              1. It make IntelliJ IDEA debug break point unavilable.
+              2. Stop spring-boot app but it keep running within IntelliJ IDEA when start with 
+                 'mvn spring-boot:run'.
+              The default value 'true' is suitable for 'spring-boot-devtools'.
+              We set to 'false' because we don't need it.
+              But we can use '-Dspring-boot.run.fork=false' to change it with command line param.
+            -->
+            <fork>false</fork>
+          </configuration>
         </plugin>
       </plugins>
     </pluginManagement>

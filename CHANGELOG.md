@@ -1,18 +1,37 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.3.0-M13 - 2020-02-11
+
+- Rename spring.version to spring-framework.version
+- Rename spring.milestone.version to spring-framework.milestone.version
+- Upgrade to hibernate-5.4.11.Final
+- Upgrade to hibernate-validator-6.1.2.Final
+- Upgrade to eclipselink-2.7.6
+- Upgrade to junit5-5.6.0
+- Upgrade to postgres-driver-42.2.10
+- Upgrade to r2dbc-client-0.8.0.RJ2
+- Add spring-boot-r2dbc.milestone-0.1.0.M3
+- Add spring-data-r2dbc.milestone-1.1.0.M2
+- Upgrade to spring-boot.milestone-2.3.0-M1
+- Upgrade to spring-data-releasetrain.milestone-Neumann-M2
+- Upgrade to reactor-Dysprosium-SR4
+- Upgrade to r2dbc-Arabba-SR2
+- Upgrade to spring-boot-2.2.4
+- Upgrade to kotlinx-coroutines-1.3.3
+
 ## 1.3.0-M12 - 2020-01-19
 
-- pgrade to spring-boot-2.2.3
-- pgrade to spring-5.2.3
-- pgrade to spring-data-releasetrain-Moore-SR4
-- pgrade to reactor-Dysprosium-SR3
-- pgrade to springmockk-2.0.0
-- pgrade to postgres-42.2.9
-- pgrade to mysql-8.0.19
-- pgrade to hibernate-validator-6.1.1
-- pgrade to hibernate-5.4.10
-- pgrade to mockito-3.2.4
-- pgrade to junit4-4.12
+- Upgrade to spring-boot-2.2.3
+- Upgrade to spring-5.2.3
+- Upgrade to spring-data-releasetrain-Moore-SR4
+- Upgrade to reactor-Dysprosium-SR3
+- Upgrade to springmockk-2.0.0
+- Upgrade to postgres-42.2.9
+- Upgrade to mysql-8.0.19
+- Upgrade to hibernate-validator-6.1.1
+- Upgrade to hibernate-5.4.10
+- Upgrade to mockito-3.2.4
+- Upgrade to junit4-4.12
 
 ## 1.3.0-M11 - 2020-01-08
 

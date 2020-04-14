@@ -97,7 +97,7 @@
 
     <!-- latest milestone version -->
     <spring-framework.milestone.version>5.2.5.RELEASE</spring-framework.milestone.version>
-    <spring-data-releasetrain.milestone.version>Neumann-M3</spring-data-releasetrain.milestone.version>
+    <spring-data-releasetrain.milestone.version>Neumann-RC1</spring-data-releasetrain.milestone.version>
     <spring-data-r2dbc.milestone.version>1.1.0.M3</spring-data-r2dbc.milestone.version>
     <spring-boot.milestone.version>2.3.0.M2</spring-boot.milestone.version>
     <spring-boot-r2dbc.milestone.version>0.1.0.M3</spring-boot-r2dbc.milestone.version>

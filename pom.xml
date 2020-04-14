@@ -42,7 +42,7 @@
     -->
     <spring-data-releasetrain.version>Moore-SR6</spring-data-releasetrain.version>
     <!-- spring-boot -->
-    <spring-boot.version>2.2.5.RELEASE</spring-boot.version>
+    <spring-boot.version>2.2.6.RELEASE</spring-boot.version>
     <!-- r2dbc relative -->
     <r2dbc.version>Arabba-SR2</r2dbc.version>
     <r2dbc-client.version>0.8.0.RJ2</r2dbc-client.version>

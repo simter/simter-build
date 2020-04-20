@@ -1,5 +1,28 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.3.0-M14 - 2020-04-20
+
+> Importance: kotlin chain upgrade to 1.3.70+ from 1.3.60+
+
+- Upgrade to kotlin-serialization-0.20.0
+- Upgrade to kotlin-coroutines-1.3.5
+- Upgrade to kotlin-1.3.72
+- Upgrade to spring-boot.milestone-2.3.0.M4
+- Upgrade to spring-data-r2dbc.milestone-1.1.0.RC1
+- Upgrade to spring-data-releasetrain.milestone-Neumann-RC1
+- Upgrade to poi-4.1.2
+- Upgrade to hibernate-validator-6.1.3
+- Upgrade to hibernate-5.4.14
+- Upgrade to reactor-Dysprosium-SR6
+- Upgrade to springmockk-2.0.1
+- Upgrade to mockito-3.3.3
+- Upgrade to junit5-5.6.2
+- Upgrade to postgres-driver-42.2.12
+- Upgrade to r2dbc.version-Arabba-SR3
+- Not upgrade to spring-boot-2.2.6 because [spring-boot/issue/20996](https://github.com/spring-projects/spring-boot/issues/20996)
+- Upgrade to spring-data-releasetrain-Moore-SR6
+- Upgrade to spring-framework-5.2.5
+
 ## 1.3.0-M13 - 2020-02-11
 
 - Rename spring.version to spring-framework.version

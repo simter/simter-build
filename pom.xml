@@ -83,6 +83,7 @@
       Californium-SR6 > reactor-core-3.2.8.RELEASE
       Californium-SR5 > reactor-core-3.2.6.RELEASE
 
+      Dysprosium-SR7 > reactor-core-3.3.5
       Dysprosium-SR6 > reactor-core-3.3.4
       Dysprosium-SR5 > reactor-core-3.3.3
       Dysprosium-SR4 > reactor-core-3.3.2
@@ -93,7 +94,7 @@
       Dysprosium-M2 > reactor-core-3.3.0.M2
       Dysprosium-M1 > reactor-core-3.3.0.M1
     -->
-    <reactor.version>Dysprosium-SR6</reactor.version>
+    <reactor.version>Dysprosium-SR7</reactor.version>
 
     <!-- latest milestone version -->
     <spring-framework.milestone.version>5.2.5.RELEASE</spring-framework.milestone.version>
@@ -101,7 +102,7 @@
     <spring-data-r2dbc.milestone.version>1.1.0.RC1</spring-data-r2dbc.milestone.version>
     <spring-boot.milestone.version>2.3.0.M4</spring-boot.milestone.version>
     <spring-boot-r2dbc.milestone.version>0.1.0.M3</spring-boot-r2dbc.milestone.version>
-    <reactor.milestone.version>Dysprosium-SR6</reactor.milestone.version>
+    <reactor.milestone.version>Dysprosium-SR7</reactor.milestone.version>
   </properties>
   <modules>
     <module>simter-dependencies</module>

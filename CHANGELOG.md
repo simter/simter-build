@@ -1,5 +1,20 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.3.0-M15 - 2020-05-08
+
+- Upgrade to spring-data-r2dbc.milestone-1.1.0.RC2
+- Upgrade to spring-boot.milestone-2.3.0.RC1
+- Upgrade to spring-boot-2.2.7
+- Upgrade to spring-data-releasetrain.milestone-Neumann-RC2
+- Upgrade to spring-data-releasetrain-Moore-SR7
+- Upgrade to spring-framework-5.2.6
+- Upgrade to reactor-Dysprosium-SR7
+- Upgrade to hibernate-validator-6.1.5
+- Upgrade to hibernate-5.4.15
+- Upgrade to mockk-1.10.0
+- Upgrade to eclipselink-2.7.7
+- Upgrade to mysql-8.0.20
+
 ## 1.3.0-M14 - 2020-04-20
 
 > Importance: kotlin chain upgrade to 1.3.70+ from 1.3.60+

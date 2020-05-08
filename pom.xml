@@ -8,8 +8,8 @@
   <name>simter-build</name>
   <description>Simter Build</description>
   <properties>
-    <revision>1.3.0-M14</revision>
-    <simter.version>1.3.0-M14</simter.version>
+    <revision>1.3.0-M15</revision>
+    <simter.version>1.3.0-M15</simter.version>
 
     <!-- maven global setting-->
     <java.version>1.8</java.version>

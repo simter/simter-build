@@ -186,13 +186,18 @@
             </execution>
           </executions>
           <configuration>
+            <!-- Disable warnings -->
+            <nowarn>true</nowarn>
             <!-- 1.6, 1.8, 9, 10, 11, 12 -->
             <jvmTarget>${java.version}</jvmTarget>
-            <!--<nowarn>true</nowarn>-->
             <!-- 1.0, 1.1, 1.2, 1.3 -->
             <languageVersion>1.3</languageVersion>
             <!-- 1.0, 1.1, 1.2, 1.3 -->
             <apiVersion>1.3</apiVersion>
+            <args>
+              <!-- Avoid compile 'const val t = "中文"' to garbled Chinese characters on win platform with default GBK platform encoding -->
+              <arg>-Dfile.encoding=UTF-8</arg>
+            </args>
           </configuration>
           <dependencies>
             <!-- https://kotlinlang.org/docs/reference/compiler-plugins.html#all-open-compiler-plugin -->

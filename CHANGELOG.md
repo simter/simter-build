@@ -1,5 +1,12 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 2.0.0-M1 - 2020-06-02
+
+- Inherited dependency|plugin management from spring-boot-dependencies
+- Move version number to properties
+- Move some properties to simter-dependencies
+- kotlin-maven-plugin: Disable warnings
+
 ## 1.3.0-M15 - 2020-05-08
 
 - Upgrade to spring-data-r2dbc.milestone-1.1.0.RC2

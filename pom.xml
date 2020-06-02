@@ -14,8 +14,8 @@
   <name>simter-build</name>
   <description>Simter Build</description>
   <properties>
-    <revision>1.3.0-M15</revision>
-    <simter.version>1.3.0-M15</simter.version>
+    <revision>2.0.0-M1</revision>
+    <simter.version>2.0.0-M1</simter.version>
 
     <!-- maven relative settings -->
     <java.version>1.8</java.version>

@@ -274,6 +274,36 @@
           </executions>
         </plugin>
         <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>flatten-maven-plugin</artifactId>
+          <executions>
+            <execution>
+              <id>flatten</id>
+              <phase>process-resources</phase>
+              <goals>
+                <goal>flatten</goal>
+              </goals>
+              <configuration>
+                <outputDirectory>${project.build.directory}</outputDirectory>
+                <flattenedPomFilename>flattened-pom.xml</flattenedPomFilename>
+                <updatePomFile>true</updatePomFile>
+                <flattenMode>oss</flattenMode>
+                <pomElements>
+                  <parent>resolve</parent>
+                  <modules>remove</modules>
+                  <properties>interpolate</properties>
+                  <dependencyManagement>keep</dependencyManagement>
+                  <dependencies>keep</dependencies>
+                  <pluginManagement>keep</pluginManagement>
+                  <name>resolve</name>
+                  <description>resolve</description>
+                  <profiles>remove</profiles>
+                </pomElements>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
           <groupId>pl.project13.maven</groupId>
           <artifactId>git-commit-id-plugin</artifactId>
           <executions>
@@ -325,7 +355,6 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>flatten-maven-plugin</artifactId>
-        <inherited>false</inherited>
         <executions>
           <execution>
             <id>flatten</id>
@@ -334,14 +363,8 @@
               <goal>flatten</goal>
             </goals>
             <configuration>
-              <outputDirectory>${project.build.directory}</outputDirectory>
-              <flattenedPomFilename>flattened-pom.xml</flattenedPomFilename>
-              <updatePomFile>true</updatePomFile>
-              <flattenMode>oss</flattenMode>
               <pomElements>
-                <properties>interpolate</properties>
                 <profiles>keep</profiles>
-                <pluginManagement>keep</pluginManagement>
               </pomElements>
             </configuration>
           </execution>

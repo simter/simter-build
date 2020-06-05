@@ -1,6 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-dependencies</artifactId>
+    <version>2.3.0.RELEASE</version>
+    <relativePath/>
+  </parent>
   <groupId>tech.simter</groupId>
   <artifactId>simter-build</artifactId>
   <version>${revision}</version>
@@ -8,10 +14,10 @@
   <name>simter-build</name>
   <description>Simter Build</description>
   <properties>
-    <revision>1.3.0-M15</revision>
-    <simter.version>1.3.0-M15</simter.version>
+    <revision>2.0.0-M1</revision>
+    <simter.version>2.0.0-M1</simter.version>
 
-    <!-- maven global setting-->
+    <!-- maven relative settings -->
     <java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -20,90 +26,14 @@
     <maven.compiler.compilerVersion>${java.version}</maven.compiler.compilerVersion>
     <!--<maven.javadoc.skip>true</maven.javadoc.skip>-->
     <!--<source.skip>false</source.skip>-->
+    <maven-site-plugin.version>3.9.0</maven-site-plugin.version>
+    <maven-project-info-reports-plugin.version>3.1.0</maven-project-info-reports-plugin.version>
+    <maven-gpg-plugin.version>3.1.0</maven-gpg-plugin.version>
+    <dokka-maven-plugin.version>0.10.1</dokka-maven-plugin.version>
+
+    <!-- others -->
     <dollar>$</dollar>
-
     <gpg.executable>gpg</gpg.executable>
-    <!-- kotlin -->
-    <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
-    <kotlin.version>1.3.72</kotlin.version>
-    <kotlinx-coroutines.version>1.3.5</kotlinx-coroutines.version>
-    <kotlinx-serialization.version>0.20.0</kotlinx-serialization.version>
-    <!-- spring -->
-    <spring-framework.version>5.2.6.RELEASE</spring-framework.version>
-    <!-- spring-data-releasetrain
-      Lovelace-SR10 > -commons|jpa|mongodb-2.1.10, -jdbc-1.0.10, ...
-      Lovelace-SR9 > -commons|jpa|mongodb-2.1.9, -jdbc-1.0.9, ...
-
-      Moore-SR7 > -commons|jpa|mongodb-2.2.7, -jdbc|relational-1.1.7, ...
-      Moore-SR6 > -commons|jpa|mongodb-2.2.6, -jdbc|relational-1.1.6, ...
-      Moore-SR3 > -commons|jpa|mongodb-2.2.3, -jdbc|relational-1.1.3, ...
-      Moore-SR2 > -commons|jpa|mongodb-2.2.2, -jdbc|relational-1.1.2, ...
-      Moore-SR1 > -commons|jpa|mongodb-2.2.1, -jdbc|relational-1.1.1, ...
-      Moore-RELEASE > -commons|jpa|mongodb-2.2.0, -jdbc|relational-1.1.0, ...
-    -->
-    <spring-data-releasetrain.version>Moore-SR7</spring-data-releasetrain.version>
-    <!-- spring-boot -->
-    <spring-boot.version>2.2.7.RELEASE</spring-boot.version>
-    <!-- r2dbc relative -->
-    <r2dbc.version>Arabba-SR3</r2dbc.version>
-    <r2dbc-client.version>0.8.0.RJ2</r2dbc-client.version>
-    <spring-data-r2dbc.version>1.0.0.RELEASE</spring-data-r2dbc.version>
-    <spring-boot-r2dbc.version>0.1.0.M3</spring-boot-r2dbc.version>
-    <!-- database -->
-    <postgres-driver.version>42.2.12</postgres-driver.version>
-    <mysql-driver.version>8.0.20</mysql-driver.version>
-    <h2-driver.version>1.4.200</h2-driver.version>
-    <hsql-driver.version>2.5.0</hsql-driver.version>
-    <derby-driver.version>10.15.1.3</derby-driver.version>
-    <!-- embedded-database -->
-    <mongo-embedded.version>3.5.5</mongo-embedded.version>
-    <!-- 9.5.16-1, 9.6.12-1, 10.7-1, 10.10-2, 11.2-1, 11.5-2, 12.0-1 -->
-    <postgres-embedded.version>10.10-2</postgres-embedded.version>
-    <!-- 5.6.36, 5.7.19, 5.7.27, 8.0.11, 8.0.17 -->
-    <mysql-embedded.version>8.0.17</mysql-embedded.version>
-    <!-- junit -->
-    <junit4.version>4.13</junit4.version>
-    <junit5.version>5.6.2</junit5.version>
-    <!-- mockito -->
-    <mockito.version>3.3.3</mockito.version>
-    <mockito-kotlin.version>2.2.0</mockito-kotlin.version>
-    <!-- mockk -->
-    <mockk.version>1.10.0</mockk.version>
-    <springmockk.version>2.0.1</springmockk.version>
-    <!-- hibernate -->
-    <hibernate.version>5.4.15.Final</hibernate.version>
-    <hibernate-validator.version>6.1.5.Final</hibernate-validator.version>
-    <!-- EclipseLink -->
-    <eclipselink.version>2.7.7</eclipselink.version>
-    <!-- poi -->
-    <poi.version>4.1.2</poi.version>
-    <!-- maven plugins -->
-    <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
-    <!-- reactor
-      Californium-SR9 > reactor-core-3.2.10.RELEASE
-      Californium-SR6 > reactor-core-3.2.8.RELEASE
-      Californium-SR5 > reactor-core-3.2.6.RELEASE
-
-      Dysprosium-SR7 > reactor-core-3.3.5
-      Dysprosium-SR6 > reactor-core-3.3.4
-      Dysprosium-SR5 > reactor-core-3.3.3
-      Dysprosium-SR4 > reactor-core-3.3.2
-      Dysprosium-SR3 > reactor-core-3.3.2
-      Dysprosium-SR2 > reactor-core-3.3.1
-      Dysprosium-SR1 > reactor-core-3.3.0
-      Dysprosium-RELEASE > reactor-core-3.3.0 
-      Dysprosium-M2 > reactor-core-3.3.0.M2
-      Dysprosium-M1 > reactor-core-3.3.0.M1
-    -->
-    <reactor.version>Dysprosium-SR7</reactor.version>
-
-    <!-- latest milestone version -->
-    <spring-framework.milestone.version>5.2.6.RELEASE</spring-framework.milestone.version>
-    <spring-data-releasetrain.milestone.version>Neumann-RC2</spring-data-releasetrain.milestone.version>
-    <spring-data-r2dbc.milestone.version>1.1.0.RC2</spring-data-r2dbc.milestone.version>
-    <spring-boot.milestone.version>2.3.0.RC1</spring-boot.milestone.version>
-    <spring-boot-r2dbc.milestone.version>0.1.0.M3</spring-boot-r2dbc.milestone.version>
-    <reactor.milestone.version>Dysprosium-SR7</reactor.milestone.version>
   </properties>
   <modules>
     <module>simter-dependencies</module>
@@ -148,7 +78,9 @@
     </license>
   </licenses>
   <scm>
-    <url>https://github.com/simter/simter-build.git</url>
+    <connection>scm:git:git://github.com/simter/simter-build.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/simter/simter-build.git</developerConnection>
+    <url>https://github.com/simter/simter-build</url>
   </scm>
   <organization>
     <name>simter</name>
@@ -170,7 +102,6 @@
         <plugin>
           <groupId>org.jetbrains.kotlin</groupId>
           <artifactId>kotlin-maven-plugin</artifactId>
-          <version>${kotlin.version}</version>
           <executions>
             <execution>
               <id>compile</id>
@@ -186,9 +117,10 @@
             </execution>
           </executions>
           <configuration>
+            <!-- Disable warnings -->
+            <nowarn>true</nowarn>
             <!-- 1.6, 1.8, 9, 10, 11, 12 -->
             <jvmTarget>${java.version}</jvmTarget>
-            <!--<nowarn>true</nowarn>-->
             <!-- 1.0, 1.1, 1.2, 1.3 -->
             <languageVersion>1.3</languageVersion>
             <!-- 1.0, 1.1, 1.2, 1.3 -->
@@ -199,13 +131,13 @@
             <dependency>
               <groupId>org.jetbrains.kotlin</groupId>
               <artifactId>kotlin-maven-allopen</artifactId>
-              <version>${kotlin.version}</version>
+                <version>${kotlin.version}</version>
             </dependency>
             <!-- https://kotlinlang.org/docs/reference/compiler-plugins.html#no-arg-compiler-plugin -->
             <dependency>
               <groupId>org.jetbrains.kotlin</groupId>
               <artifactId>kotlin-maven-noarg</artifactId>
-              <version>${kotlin.version}</version>
+                <version>${kotlin.version}</version>
             </dependency>
             <!-- https://github.com/Kotlin/kotlinx.serialization -->
             <dependency>
@@ -217,13 +149,7 @@
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-dependency-plugin</artifactId>
-          <version>3.0.2</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-source-plugin</artifactId>
-          <version>3.0.1</version>
           <executions>
             <execution>
               <id>attach-sources</id>
@@ -236,7 +162,6 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <version>3.0.0</version>
           <configuration>
             <charset>UTF-8</charset>
             <encoding>UTF-8</encoding>
@@ -254,7 +179,7 @@
         <plugin>
           <groupId>org.jetbrains.dokka</groupId>
           <artifactId>dokka-maven-plugin</artifactId>
-          <version>0.9.18</version>
+          <version>${dokka-maven-plugin.version}</version>
           <executions>
             <execution>
               <phase>package</phase>
@@ -268,48 +193,17 @@
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-clean-plugin</artifactId>
-          <version>3.0.0</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.7.0</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-deploy-plugin</artifactId>
-          <version>2.8.2</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-install-plugin</artifactId>
-          <version>2.5.2</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-jar-plugin</artifactId>
-          <version>3.0.2</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-resources-plugin</artifactId>
-          <version>3.0.2</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
-          <version>3.7</version>
+          <version>${maven-site-plugin.version}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>2.9</version>
+          <version>${maven-project-info-reports-plugin.version}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>${maven-surefire-plugin.version}</version>
           <configuration>
             <includes>
               <include>**/*Test.java</include>
@@ -319,24 +213,24 @@
             </includes>
           </configuration>
           <dependencies>
-            <!-- junit5  -->
+            <!-- junit-jupiter  -->
             <dependency>
               <groupId>org.junit.jupiter</groupId>
               <artifactId>junit-jupiter-engine</artifactId>
-              <version>${junit5.version}</version>
+              <version>${junit-jupiter.version}</version>
             </dependency>
-            <!-- allows junit5 backward compatibility with junit4 or junit3  -->
+            <!-- allows junit-jupiter backward compatibility with junit4 or junit3  -->
             <dependency>
               <groupId>org.junit.vintage</groupId>
               <artifactId>junit-vintage-engine</artifactId>
-              <version>${junit5.version}</version>
+              <version>${junit-jupiter.version}</version>
             </dependency>
           </dependencies>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-gpg-plugin</artifactId>
-          <version>1.6</version>
+          <version>${maven-gpg-plugin.version}</version>
           <executions>
             <execution>
               <id>sign-artifacts</id>
@@ -350,7 +244,6 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-enforcer-plugin</artifactId>
-          <version>3.0.0-M2</version>
           <executions>
             <execution>
               <id>enforce-rules</id>
@@ -384,12 +277,36 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>flatten-maven-plugin</artifactId>
-          <version>1.1.0</version>
+          <executions>
+            <execution>
+              <id>flatten</id>
+              <phase>process-resources</phase>
+              <goals>
+                <goal>flatten</goal>
+              </goals>
+              <configuration>
+                <outputDirectory>${project.build.directory}</outputDirectory>
+                <flattenedPomFilename>flattened-pom.xml</flattenedPomFilename>
+                <updatePomFile>true</updatePomFile>
+                <flattenMode>oss</flattenMode>
+                <pomElements>
+                  <parent>resolve</parent>
+                  <modules>remove</modules>
+                  <properties>interpolate</properties>
+                  <dependencyManagement>keep</dependencyManagement>
+                  <dependencies>keep</dependencies>
+                  <pluginManagement>keep</pluginManagement>
+                  <name>resolve</name>
+                  <description>resolve</description>
+                  <profiles>remove</profiles>
+                </pomElements>
+              </configuration>
+            </execution>
+          </executions>
         </plugin>
         <plugin>
           <groupId>pl.project13.maven</groupId>
           <artifactId>git-commit-id-plugin</artifactId>
-          <version>2.2.6</version>
           <executions>
             <execution>
               <id>get-the-git-infos</id>
@@ -409,17 +326,10 @@
             </generateGitPropertiesFilename>
           </configuration>
         </plugin>
-        <!-- exec:java -->
-        <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>exec-maven-plugin</artifactId>
-          <version>1.6.0</version>
-        </plugin>
         <!-- spring-boot-maven-plugin -->
         <plugin>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-maven-plugin</artifactId>
-          <version>${spring-boot.version}</version>
           <configuration>
             <!-- 
               https://docs.spring.io/spring-boot/docs/current/maven-plugin/run-mojo.html#fork
@@ -446,7 +356,6 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>flatten-maven-plugin</artifactId>
-        <inherited>false</inherited>
         <executions>
           <execution>
             <id>flatten</id>
@@ -455,14 +364,8 @@
               <goal>flatten</goal>
             </goals>
             <configuration>
-              <outputDirectory>${project.build.directory}</outputDirectory>
-              <flattenedPomFilename>flattened-pom.xml</flattenedPomFilename>
-              <updatePomFile>true</updatePomFile>
-              <flattenMode>oss</flattenMode>
               <pomElements>
-                <properties>interpolate</properties>
                 <profiles>keep</profiles>
-                <pluginManagement>keep</pluginManagement>
               </pomElements>
             </configuration>
           </execution>

@@ -1,5 +1,9 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 2.0.0-M2 - 2020-07-28
+
+- Upgrade to spring-boot-2.3.2
+
 ## 2.0.0-M1 - 2020-06-02
 
 - Inherited dependency|plugin management from spring-boot-dependencies

@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-dependencies</artifactId>
-    <version>2.3.2.RELEASE</version>
+    <version>2.3.6.RELEASE</version>
     <relativePath/>
   </parent>
   <groupId>tech.simter</groupId>
@@ -14,8 +14,9 @@
   <name>simter-build</name>
   <description>Simter Build</description>
   <properties>
-    <revision>2.0.0-M2</revision>
-    <simter.version>2.0.0-M2</simter.version>
+    <revision>2.0.0</revision>
+    <simter.version>2.0.0</simter.version>
+    <spring-boot.version>2.3.6.RELEASE</spring-boot.version>
 
     <!-- maven relative settings -->
     <java.version>1.8</java.version>
@@ -26,8 +27,8 @@
     <maven.compiler.compilerVersion>${java.version}</maven.compiler.compilerVersion>
     <!--<maven.javadoc.skip>true</maven.javadoc.skip>-->
     <!--<source.skip>false</source.skip>-->
-    <maven-site-plugin.version>3.9.0</maven-site-plugin.version>
-    <maven-project-info-reports-plugin.version>3.1.0</maven-project-info-reports-plugin.version>
+    <maven-site-plugin.version>3.9.1</maven-site-plugin.version>
+    <maven-project-info-reports-plugin.version>3.1.1</maven-project-info-reports-plugin.version>
     <maven-gpg-plugin.version>3.1.0</maven-gpg-plugin.version>
     <dokka-maven-plugin.version>0.10.1</dokka-maven-plugin.version>
 

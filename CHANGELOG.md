@@ -1,5 +1,11 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 2.0.0 - 2020-12-03
+
+- Upgrade to spring-boot-2.3.6
+- Upgrade to maven-site-plugin.version-3.9.1
+- Upgrade to maven-project-info-reports-plugin-3.1.1
+
 ## 2.0.0-M2 - 2020-07-28
 
 - Upgrade to spring-boot-2.3.2

@@ -30,7 +30,7 @@
     <maven-site-plugin.version>3.9.1</maven-site-plugin.version>
     <maven-project-info-reports-plugin.version>3.1.1</maven-project-info-reports-plugin.version>
     <maven-gpg-plugin.version>3.1.0</maven-gpg-plugin.version>
-    <dokka-maven-plugin.version>0.10.1</dokka-maven-plugin.version>
+    <dokka-maven-plugin.version>1.4.20</dokka-maven-plugin.version>
     <flatten-maven-plugin.version>1.2.5</flatten-maven-plugin.version>
     <!-- others -->
     <dollar>$</dollar>
@@ -183,13 +183,11 @@
           <version>${dokka-maven-plugin.version}</version>
           <executions>
             <execution>
-              <phase>package</phase>
+              <phase>pre-site</phase>
               <goals>
-                <!--<goal>dokka</goal>
-                <goal>javadoc</goal>-->
-                <goal>javadocJar</goal>
+                <goal>dokka</goal>
               </goals>
-            </execution>
+              </execution>
           </executions>
         </plugin>
         <plugin>

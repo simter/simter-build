@@ -22,7 +22,7 @@ gftaxi-\[sub-module\] : simter-parent
 
 ## 2. Requirement
 
-Maven3.5+, Java8+.
+Maven3.6+, Java8+.
 
 ## 3. Development build
 

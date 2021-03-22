@@ -31,7 +31,7 @@
     <maven-project-info-reports-plugin.version>3.1.1</maven-project-info-reports-plugin.version>
     <maven-gpg-plugin.version>3.1.0</maven-gpg-plugin.version>
     <dokka-maven-plugin.version>1.4.30</dokka-maven-plugin.version>
-    <flatten-maven-plugin.version>1.2.5</flatten-maven-plugin.version>
+    <flatten-maven-plugin.version>1.2.7</flatten-maven-plugin.version>
     <!-- others -->
     <dollar>$</dollar>
     <gpg.executable>gpg</gpg.executable>

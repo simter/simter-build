@@ -1,5 +1,11 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 3.0.0-M2 - 2021-04-21
+
+- Upgrade to spring-boot-2.4.5
+- Upgrade to dokka-maven-plugin-1.4.30
+- Upgrade to flatten-maven-plugin-1.2.7
+
 ## 3.0.0-M1 - 2021-01-18
 
 - Upgrade to spring-boot-2.4.2

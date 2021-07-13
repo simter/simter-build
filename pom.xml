@@ -28,7 +28,7 @@
     <!--<maven.javadoc.skip>true</maven.javadoc.skip>-->
     <!--<source.skip>false</source.skip>-->
     <maven-site-plugin.version>3.9.1</maven-site-plugin.version>
-    <maven-project-info-reports-plugin.version>3.1.1</maven-project-info-reports-plugin.version>
+    <maven-project-info-reports-plugin.version>3.1.2</maven-project-info-reports-plugin.version>
     <maven-gpg-plugin.version>3.1.0</maven-gpg-plugin.version>
     <dokka-maven-plugin.version>1.4.30</dokka-maven-plugin.version>
     <flatten-maven-plugin.version>1.2.7</flatten-maven-plugin.version>

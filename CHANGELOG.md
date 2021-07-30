@@ -1,5 +1,12 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 3.0.0-M3 - 2021-07-30
+
+- Upgrade to spring-boot-2.5.3
+- Upgrade to Upgrade to maven-project-info-reports-plugin-3.1.2
+- Upgrade to dokka-maven-plugin-1.5.0
+- Upgrade to maven-gpg-plugin-3.0.1
+
 ## 3.0.0-M2 - 2021-04-21
 
 - Upgrade to spring-boot-2.4.5

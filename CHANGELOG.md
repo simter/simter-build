@@ -1,5 +1,10 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 3.0.0-M5 - 2021-11-19
+
+- Upgrade to spring-boot-2.5.7
+- Remove kotlin-maven-plugin warning
+
 ## 3.0.0-M4 - 2021-08-26
 
 - Upgrade to spring-boot-2.5.4

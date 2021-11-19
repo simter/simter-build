@@ -16,7 +16,7 @@
   <properties>
     <revision>3.0.0-M4</revision>
     <simter.version>3.0.0-M4</simter.version>
-    <spring-boot.version>2.5.4</spring-boot.version>
+    <spring-boot.version>2.5.7</spring-boot.version>
 
     <!-- maven relative settings -->
     <java.version>1.8</java.version>

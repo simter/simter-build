@@ -14,9 +14,9 @@
   <name>simter-build</name>
   <description>Simter Build</description>
   <properties>
-    <revision>3.0.0-M4</revision>
-    <simter.version>3.0.0-M4</simter.version>
-    <spring-boot.version>2.5.4</spring-boot.version>
+    <revision>3.0.0-M5</revision>
+    <simter.version>3.0.0-M5</simter.version>
+    <spring-boot.version>2.5.7</spring-boot.version>
 
     <!-- maven relative settings -->
     <java.version>1.8</java.version>
@@ -122,10 +122,10 @@
             <nowarn>true</nowarn>
             <!-- 1.6, 1.8, 9, 10, 11, 12 -->
             <jvmTarget>${java.version}</jvmTarget>
-            <!-- 1.0, 1.1, 1.2, 1.3 -->
-            <languageVersion>1.3</languageVersion>
-            <!-- 1.0, 1.1, 1.2, 1.3 -->
-            <apiVersion>1.3</apiVersion>
+            <!-- 1.0, 1.1, 1.2, 1.3，1.4，1.5，1.6，1.7
+            <languageVersion>1.3</languageVersion> -->
+            <!-- 1.0, 1.1, 1.2, 1.3，1.4，1.5，1.6，1.7
+            <apiVersion>1.3</apiVersion> -->
           </configuration>
           <dependencies>
             <!-- https://kotlinlang.org/docs/reference/compiler-plugins.html#all-open-compiler-plugin -->

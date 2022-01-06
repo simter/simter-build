@@ -14,8 +14,8 @@
   <name>simter-build</name>
   <description>Simter Build</description>
   <properties>
-    <revision>3.0.0-M5</revision>
-    <simter.version>3.0.0-M5</simter.version>
+    <revision>3.0.0-M6</revision>
+    <simter.version>3.0.0-M6</simter.version>
     <spring-boot.version>2.6.2</spring-boot.version>
 
     <!-- maven relative settings -->

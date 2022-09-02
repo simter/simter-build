@@ -1,5 +1,9 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 3.1.0 - 2022-09-02
+
+- Upgrade to spring-boot-2.7.2
+
 ## 3.0.0 - 2022-06-21
 
 - Upgrade to spring-boot-2.7.0

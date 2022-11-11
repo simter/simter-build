@@ -67,8 +67,6 @@
     <module>simter-query</module>
     <module>simter-r2dbc-ext</module>
     <module>simter-kotlin</module>
-    <module>simter-embedded-database-ext</module>
-    <!-- <module>simter-demo</module> -->
   </modules>
   <url>https://github.com/simter/simter-build</url>
   <licenses>
